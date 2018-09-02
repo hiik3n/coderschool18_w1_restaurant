@@ -4,9 +4,9 @@
 
 Submitted by: **LamDo**
 
-Time spent: **XX** hours spent in total
+Time spent: **8** hours spent in total
 
-URL: **heroku-app-url**
+URL: **https://cs18-w1-restaurant.herokuapp.com/**
 
 ## User Stories
 
