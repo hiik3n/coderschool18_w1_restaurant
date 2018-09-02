@@ -20,13 +20,13 @@ URL: **heroku-app-url**
 
 #### Milestone 2: Create FoodItems to show the available food at the restaurant
 
-* [ ] User can navigate to a menu page with four sections:
+* [x] User can navigate to a menu page with four sections:
   * Breakfast
   * Lunch
   * Dinner
   * Drinks
-* [ ] User should see at least 5 food items in each section.
-* [ ] Each food item should have the following fields:
+* [x] User should see at least 5 food items in each section.
+* [x] Each food item should have the following fields:
   * Name (e.g: Cheese Burguer)
   * Description (e.g: Burguer with cheese, pickels and onions.)
   * Price (e.g: 200,000 VND)

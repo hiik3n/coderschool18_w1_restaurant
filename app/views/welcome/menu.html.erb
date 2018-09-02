@@ -1,27 +1,30 @@
-<h1>Here is our Menu</h1>
 
-<% Section.all.each do |section| %>
-	<div class="btn-group" role="group" aria-label="Basic example"> 
-	 	 <%= link_to section, menu_path(section: section), class: 'btn btn-secondary' %>
-	</div>
-<% end %>
+<div class='row'>
+	<div class='col-1'></div>
+	<div class='col-10'>
+		<h1>Here is our Menu</h1>
 
-<% @menu_items.each do |menu_item| %>
-	<div class="card">
-			<div class="card-header"><%= menu_item.name%></div>
-	</div> 
-	<div class="card-block">
-		<div class="row">
-			<div class="col-xs-12 col-md-8">
-				<%= image_tag menu_item.url %>
+		<% Section.all.each do |section| %>
+			<div class="btn-group" role="group" aria-label="Basic example"> 
+			 	 <%= link_to section, menu_path(section: section), class: 'btn btn-outline-primary btn-sm' %>
 			</div>
-			<div class="col-xs-6 col-md-4">
-				<p><strong>Description:</strong> <%= menu_item.description %></p>
-				<p><strong>Price:</strong> <%= menu_item.price %> VND</p>
-			</div>
+		<% end %>
 
-		</div>
-		
-		
+		<% @menu_items.each do |menu_item| %>
+			<div class="card">
+					<div class="card-header"><%= menu_item.name%></div>
+			</div> 
+			<div class="card-block">
+				<div class="row">
+					<div class="col-xs-12 col-md-8">
+						<%= image_tag menu_item.url %>
+					</div>
+					<div class="col-xs-6 col-md-4">
+						<p><strong>Description:</strong> <%= menu_item.description %></p>
+						<p><strong>Price:</strong> <%= menu_item.price %> VND</p>
+					</div>
+				</div>
+			</div>
+		<% end %>
 	</div>
-<% end %>
+</div>
