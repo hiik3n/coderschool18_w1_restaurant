@@ -1,6 +1,6 @@
 # CoderRestaurant Website
 
-**Coder Restaurant** is a Ruby on Rails restaurant website let users order foods.
+**My Restaurant** is a Ruby on Rails restaurant website let users order foods.
 
 Submitted by: **LamDo**
 
@@ -12,9 +12,9 @@ URL: **heroku-app-url**
 
 #### Milestone 1: Show static pages with static information
 
-* [ ] User must be able to go two pages: Menu, and Contact Us.
-* [ ] User can see the address and phone number on the contact us page.
-* [ ] User can see a basic google map on the Contact Us page. (optional)
+* [x] User must be able to go two pages: Menu, and Contact Us.
+* [x] User can see the address and phone number on the contact us page.
+* [x] User can see a basic google map on the Contact Us page. (optional)
 
 **Hint:** Create two static pages for Menu and Contact Us. 
 

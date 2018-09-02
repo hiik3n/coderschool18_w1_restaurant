@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  resources :fooditems
   get 'welcome/index'
   get 'contact' => 'welcome#contact'
   get 'menu' => 'welcome#menu'
